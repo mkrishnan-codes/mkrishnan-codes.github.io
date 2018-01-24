@@ -1,21 +1,4 @@
-# Static Website Boilerplate
-
-Static website boilterplate built using Webpack. This boilterplate features following:
-
-- Webpack
-- ES6
-- Bootstrap
-- Font Awesome
-- Sass
-- Live reload using Browsersync
-
-## Getting Started
-
-Clone the repo
-
-```sh
-git clone https://github.com/binoy14/static-website-webpack-boilerplate.git
-```
+cd static-app
 
 Run script to start devlopment
 ```sh
@@ -27,5 +10,4 @@ For distribution folder run the following command and it will create a dist fold
 npm run build
 ```
 
-## License
-[MIT](LICENSE)
+Build and replace contents from dist folder to root folder  and commit

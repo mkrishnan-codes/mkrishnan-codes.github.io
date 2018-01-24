@@ -6,10 +6,10 @@ var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-
+	context: path.resolve('./dev'),
 	entry: './js/index.js',
 	output: {
-		path: path.resolve('./dist/'),
+		path: path.resolve('./dist'),
 		filename: 'js/bundle.js',
 		publicPath: '/'
 	},

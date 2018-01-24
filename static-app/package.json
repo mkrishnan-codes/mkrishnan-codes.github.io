@@ -1,21 +1,13 @@
 {
-  "name": "static-website-webpack-boilerplate",
-  "version": "0.0.1",
-  "description": "Static website boilerplate using webpack and bootstrap",
-  "main": "bundle.js",
+  "name": "manu-codes.github.io",
+  "version": "1.0.0",
+  "description": "Static website built using Webpack.",
+  "main": "webpack.config.js",
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "webpack",
-    "boilerplate",
-    "static",
-    "website"
-  ],
-  "author": "Binoy Patel",
-  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.13.2",
     "babel-loader": "^6.2.5",
@@ -38,5 +30,16 @@
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.6.3",
     "jquery": "^3.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manu-codes/manu-codes.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manu-codes/manu-codes.github.io/issues"
+  },
+  "homepage": "https://github.com/manu-codes/manu-codes.github.io#readme"
 }
