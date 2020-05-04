@@ -97,33 +97,34 @@ h2 {
   color: $primary;
 
   animation-name: change;
-  animation-duration: 6s;
+  animation-duration: 10s;
 
 }
 
 @keyframes change {
   0% {
-    color: $gray-500;
+    color: $blue-200;
   }
 
   25% {
-    color: $yellow;
+    color: $dark-2;
   }
 
   50% {
-    color: $orange;
+    color: $yellow;
   }
 
   100% {
     color: $primary;
   }
 }
-.mail{
-  columns: $gray-800!important;
+
+.mail {
+  columns: $gray-800 !important;
 }
 
-.list-float-item{
-  position:fixed;
-	bottom:20px;
-	right:20px;
+.list-float-item {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }

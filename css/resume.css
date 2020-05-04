@@ -84,18 +84,18 @@ h2 {
 .anim {
   color: #ffc107;
   animation-name: change;
-  animation-duration: 6s;
+  animation-duration: 10s;
 }
 
 @keyframes change {
   0% {
-    color: #adb5bd;
+    color: #90CAF9;
   }
   25% {
-    color: #ffc107;
+    color: #292929;
   }
   50% {
-    color: #BD5D38;
+    color: #ffc107;
   }
   100% {
     color: #ffc107;
