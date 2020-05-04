@@ -2,12 +2,21 @@
   background-color: $primary !important;
 }
 
+.dark-bg-primary {
+  background-color: $dark-2 !important;
+}
+
+.dark-body {
+  background-color: $dark-1 !important;
+}
+
 .text-primary {
   color: $primary !important;
 }
 
 a {
-  color: $primary;
+  color: $gray-800;
+
   &:hover,
   &:focus,
   &:active {
