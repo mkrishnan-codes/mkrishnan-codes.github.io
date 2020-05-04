@@ -5,6 +5,7 @@ body {
   padding-top: 54px;
   color: $gray-600;
 }
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -43,9 +44,11 @@ h2 {
 .list-social-icons {
   a {
     color: $gray-700;
+
     &:hover {
       color: $primary;
     }
+
     .fa-lg {
       font-size: 1.75rem;
     }
@@ -54,9 +57,64 @@ h2 {
 
 .list-icons {
   font-size: 3rem;
+
   .list-inline-item i {
     &:hover {
       color: $primary;
     }
+  }
+}
+
+.list-star {
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 3rem !important;
+
+  .li-prof {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .li-head {
+    padding: 20
+  }
+
+  i {
+    color: $primary;
+
+
+
+  }
+
+
+
+}
+
+.anim {
+  color: $primary;
+
+  animation-name: change;
+  animation-duration: 6s;
+
+}
+
+@keyframes change {
+  0% {
+    color: $gray-500;
+  }
+
+  25% {
+    color: $yellow;
+  }
+
+  50% {
+    color: $orange;
+  }
+
+  100% {
+    color: $primary;
   }
 }
