@@ -121,3 +121,9 @@ h2 {
 .mail{
   columns: $gray-800!important;
 }
+
+.list-float-item{
+  position:fixed;
+	bottom:30px;
+	right:30px;
+}
