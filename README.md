@@ -1,97 +1,70 @@
-# 📦 webpack Boilerplate
+# Getting Started with Create React App
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Sensible webpack 5 boilerplate using Babel, PostCSS and Sass.
+## Available Scripts
 
-## Installation
+In the project directory, you can run:
 
-Clone this repo and npm install.
+### `npm start`
 
-```bash
-npm i
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Usage
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Development server
+### `npm test`
 
-```bash
-npm start
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-You can view the development server at `localhost:8080`.
+### `npm run build`
 
-### Production build
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```bash
-npm run build
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-> Note: Install [http-server](https://www.npmjs.com/package/http-server) globally to deploy a simple server.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```bash
-npm i -g http-server
-```
+### `npm run eject`
 
-You can view the deploy by creating a server in `dist`.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-```bash
-cd dist && http-server
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Features
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- [webpack](https://webpack.js.org/)
-- [Babel](https://babeljs.io/)
-- [Sass](https://sass-lang.com/)
-- [PostCSS](https://postcss.org/)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Dependencies
+## Learn More
 
-### webpack
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- [`webpack`](https://github.com/webpack/webpack) - Module and asset bundler.
-- [`webpack-cli`](https://github.com/webpack/webpack-cli) - Command line interface for webpack
-- [`webpack-dev-server`](https://github.com/webpack/webpack-dev-server) - Development server for webpack
-- [`webpack-merge`](https://github.com/survivejs/webpack-merge) - Simplify development/production configuration
-- [`cross-env`](https://github.com/kentcdodds/cross-env) - Cross platform configuration
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Babel
+### Code Splitting
 
-- [`@babel/core`](https://www.npmjs.com/package/@babel/core) - Transpile ES6+ to backwards compatible JavaScript
-- [`@babel/plugin-proposal-class-properties`](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties) - Use properties directly on a class (an example Babel config)
-- [`@babel/preset-env`](https://babeljs.io/docs/en/babel-preset-env) - Smart defaults for Babel
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Loaders
+### Analyzing the Bundle Size
 
-- [`babel-loader`](https://webpack.js.org/loaders/babel-loader/) - Transpile files with Babel and webpack
-- [`sass-loader`](https://webpack.js.org/loaders/sass-loader/) - Load SCSS and compile to CSS
-  - [`sass`](https://www.npmjs.com/package/sass) - Node Sass
-- [`postcss-loader`](https://webpack.js.org/loaders/postcss-loader/) - Process CSS with PostCSS
-  - [`postcss-preset-env`](https://www.npmjs.com/package/postcss-preset-env) - Sensible defaults for PostCSS
-- [`css-loader`](https://webpack.js.org/loaders/css-loader/) - Resolve CSS imports
-- [`style-loader`](https://webpack.js.org/loaders/style-loader/) - Inject CSS into the DOM
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Plugins
+### Making a Progressive Web App
 
-- [`clean-webpack-plugin`](https://github.com/johnagan/clean-webpack-plugin) - Remove/clean build folders
-- [`copy-webpack-plugin`](https://github.com/webpack-contrib/copy-webpack-plugin) - Copy files to build directory
-- [`html-webpack-plugin`](https://github.com/jantimon/html-webpack-plugin) - Generate HTML files from template
-- [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) - Extract CSS into separate files
-- [`css-minimizer-webpack-plugin`](https://webpack.js.org/plugins/css-minimizer-webpack-plugin/) - Optimize and minimize CSS assets
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Linters
+### Advanced Configuration
 
-- [`eslint`](https://github.com/eslint/eslint) - Enforce styleguide across application
-- [`eslint-config-prettier`](https://github.com/prettier/eslint-config-prettier) - Implement prettier rules
-  - - [`prettier`](https://github.com/prettier/prettier) - Dependency for `prettier-webpack-plugin` plugin
-- [`eslint-import-resolver-webpack`](https://github.com/benmosher/eslint-plugin-import/tree/master/resolvers/webpack) - Throw exceptions for import/export in webpack
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## Author
+### Deployment
 
-- [Tania Rascia](https://www.taniarascia.com)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## License
+### `npm run build` fails to minify
 
-This project is open source and available under the [MIT License](LICENSE).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
