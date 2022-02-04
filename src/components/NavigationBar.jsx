@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 
 const Navigationbar = () => {
     return (
-        <div>
+        <nav className="s-sidebar__nav">
             
-        </div>
+        </nav>
     );
 };
 
