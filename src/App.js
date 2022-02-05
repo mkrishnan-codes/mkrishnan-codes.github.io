@@ -1,4 +1,5 @@
 import './App.css';
+import './styles/old.css'
 import { useState } from "react"
 import Contentsection from './components/ContentSection';
 import Navigationbar from './components/NavigationBar';
