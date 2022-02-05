@@ -1,37 +1,37 @@
 export const MENU = [
     {
         name: 'About',
-        href: '#About'
+        href: 'About'
         , icon: ''
     },
     {
         name: 'Experience',
-        href: '#Experience'
+        href: 'Experience'
         , icon: ''
     },
     {
         name: 'Projects',
-        href: '#Projects'
+        href: 'Projects'
         , icon: ''
     },
     {
         name: 'Education',
-        href: '#Education'
+        href: 'Education'
         , icon: ''
     },
     {
         name: 'Skills',
-        href: '#Skills'
+        href: 'Skills'
         , icon: ''
     },
     {
         name: 'Interests',
-        href: '#Interests'
+        href: 'Interests'
         , icon: ''
     },
     {
         name: 'Awards',
-        href: '#Awards'
+        href: 'Awards'
     }
 ]
 
@@ -60,7 +60,7 @@ export const CONTENT_SECTIONS = [
         },
         {
             heading:"Gist (React Native)",
-            id: "3",
+            id: "3-1",
             text: "Mobile app built on React native to find authentic product reviews. Platforms - iOS"
         },
         {
@@ -130,6 +130,7 @@ export const CONTENT_SECTIONS = [
         id: "Skills",
         heading: "Skills",
         subContent: [{
+            id:"1",
             text: ""
         }]
     },

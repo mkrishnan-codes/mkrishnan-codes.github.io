@@ -1,5 +1,7 @@
 /* Primary Styles */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -10,7 +12,7 @@ body {
 }
 
 h1 {
- font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 em {
@@ -20,7 +22,7 @@ em {
 a {
   text-decoration: none;
   color: inherit;
-} 
+}
 
 /* Layout */
 .s-layout {
@@ -56,7 +58,7 @@ a {
   top: 0;
   left: -15em;
   overflow: hidden;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
   width: 15em;
   height: 100%;
   background: #243e56;
@@ -120,43 +122,49 @@ a {
 /* Mobile First */
 @media (min-width: 42em) {
   .s-layout__content {
-     margin-left: 4em;
+    margin-left: 4em;
   }
-  
+
   /* Sidebar */
   .s-sidebar__trigger {
-     width: 4em;
+    width: 4em;
   }
-  
+
   .s-sidebar__nav {
-     width: 4em;
-     left: 0;
+    width: 4em;
+    left: 0;
   }
-  
+
   .s-sidebar__nav:hover,
   .s-sidebar__nav:focus,
   .s-sidebar__trigger:hover + .s-sidebar__nav,
   .s-sidebar__trigger:focus + .s-sidebar__nav {
-     width: 15em;
+    width: 15em;
   }
 }
 
 @media (min-width: 68em) {
   .s-layout__content {
-     margin-left: 15em;
+    margin-left: 15em;
   }
-  
+
   /* Sidebar */
   .s-sidebar__trigger {
-     display: none
+    display: none;
   }
-  
+
   .s-sidebar__nav {
-     width: 15em;
+    width: 15em;
   }
-  
+
   .s-sidebar__nav ul {
-     top: 1.3em;
+    top: 1.3em;
   }
 }
 
+.resume-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

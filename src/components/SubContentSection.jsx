@@ -14,7 +14,7 @@ const SubContentsection = ({ id, text, heading, rightContent, additionalInfo, su
             </p>
         </div>
         <div className="resume-date text-md-right">
-            <span class="text-primary">{rightContent}</span>
+            <span className="text-primary">{rightContent}</span>
         </div>
     </div>
 
