@@ -2,36 +2,37 @@ export const MENU = [
     {
         name: 'About',
         href: 'About'
-        , icon: ''
+        , icon: 'far fa-user-circle'
     },
     {
         name: 'Experience',
         href: 'Experience'
-        , icon: ''
+        , icon: 'far fa-building'
     },
     {
         name: 'Projects',
         href: 'Projects'
-        , icon: ''
+        , icon: 'fas fa-tasks'
     },
     {
         name: 'Education',
         href: 'Education'
-        , icon: ''
+        , icon: 'fas fa-graduation-cap'
     },
     {
         name: 'Skills',
         href: 'Skills'
-        , icon: ''
+        , icon: 'fas fa-wrench'
     },
     {
         name: 'Interests',
         href: 'Interests'
-        , icon: ''
+        , icon: 'far fa-heart'
     },
     {
         name: 'Awards',
         href: 'Awards'
+        , icon: 'fas fa-medal'
     }
 ]
 

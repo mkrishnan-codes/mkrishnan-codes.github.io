@@ -9,11 +9,11 @@ const About = (props) => {
             <div className="my-auto">
                 <h1 className="mb-5">{props.heading}</h1>
                 <div class="subheading ">
-                    <i class="fa fa-map-marker "></i>
+                <i class="fas fa-location-arrow"></i>
                     {props.subHeading}
                 </div>
                 <div class="subheading mb-5">
-                    <i class="fa fa-envelope-o "></i>
+                    <i class="far fa-envelope"></i>
                     <a class="mail" href={`mailto:${props.email}`}>{props.email}</a>
                 </div>
                 {props.subContent.map((subItem) => <SubContentsection {...subItem} key={subItem.id}></SubContentsection>)}

@@ -136,6 +136,9 @@ h2 {
         display: block;
     }
 }
+.nav-link{
+    padding: 0.5rem 1rem;
+}
 section.resume-section {
     border-bottom: 1px solid #dee2e6;
     padding-top: 5rem !important;
