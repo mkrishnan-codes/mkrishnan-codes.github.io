@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Javascript | Typescript Engineer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113314165-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-113314165-1');
+    </script>
+    <link rel="stylesheet" href="./assets/style.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .w3-row-padding img {
+            margin-bottom: 12px
+        }
+
+        /* Set the width of the sidebar to 120px */
+        .w3-sidebar {
+            width: 120px;
+            background: #222;
+        }
+
+        /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+        #main {
+            margin-left: 120px
+        }
+
+        /* Remove margins from "page content" on small screens */
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0
+            }
+        }
+    </style>
+</head>
+
+<body class="w3-black">
+
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <!-- Avatar image in top left corner -->
+        <div class="large-icon">☕</div>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+        </a>
+        <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-laptop w3-xxlarge"></i>
+            <p>PROJECTS</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>CONTACT</p>
+        </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+        <!-- Header/Home -->
+        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+            <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Manu Krishnan.</h1>
+            <p>Software Engineer ☕ | Learner 🔥</p>
+            
+        </header>
+
+        <!-- About Section -->
+        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+            <h2 class="w3-text-light-grey">About</h2>
+            <hr style="width:250px" class="w3-opacity">
+            <p>11 years of experience in building scalable web applications. Proficient in building web applications and
+                native mobile applications using React and Typescript. Worked on several frameworks and technologies
+                including
+                React/ Vue/ AngularJs/ Jquery/ Backbone/ NodeJs/ Express. Helped teams in setting up CI/CD for UI
+                projects.
+                Worked with UX, product management and customers in agile environments.
+            </p>
+            <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+            <p class="w3-wide">React</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+            </div>
+            <p class="w3-wide">Vue</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+            </div>
+            <p class="w3-wide">Javascript</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+            </div>
+            <p class="w3-wide">Typescript</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+            </div>
+            <p class="w3-wide">React native</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+            </div>
+            <p class="w3-wide">HTML / CSS</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+            </div>
+            <br>
+
+            <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">12+</span><br>
+                    Projects Done
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">5+</span><br>
+                    Companies worked with
+                </div>
+
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">3+</span><br>
+                    JS Frameworks
+                </div>
+
+            </div>
+
+            <button class="w3-button w3-light-grey w3-padding-large w3-section">
+                <i class="fa fa-download"></i> Download Resume
+            </button>
+
+
+
+            <!-- Testimonials -->
+
+
+
+            <!-- End About Section -->
+        </div>
+
+        <!-- Portfolio Section  -->
+        <div class="w3-padding-64 w3-content" id="projects">
+            <h2 class="w3-text-light-grey">Projects</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <h3 class="w3-padding-24 w3-text-light-grey">MAERSK VISIBILITY (VUEJS)</h3>
+            <p>
+                Web app built for Maersk scm customers to track their containers and stakeholders to update the
+                container
+                events. Platforms - Web
+            </p>
+
+            <!--NEXT-->
+            <h3 class="w3-padding-24 w3-text-light-grey">GIST (REACT NATIVE)</h3>
+
+            <p>
+                Mobile app built on React native to find authentic product reviews. Platforms - iOS
+            </p>
+            <!--NEXT-->
+            <h3 class="w3-padding-24 w3-text-light-grey">THINKLUMO MOBILE APP (REACT NATIVE)</h3>
+            <p>
+                Mobile app for travelers to get flight information and delay predictions. Platforms - iOS | Android
+            </p>
+            <!--NEXT-->
+            <h3 class="w3-padding-24 w3-text-light-grey">LUMO NAVIGATOR (REACTJS)</h3>
+            <p>
+                Lumo navigator combines predictive and real-time alerts with retrospective reporting. Application for
+                enterprise
+                customers to manage their trips and travelers.
+            </p>
+
+            <!--NEXT-->
+            <h3 class="w3-padding-24 w3-text-light-grey">VISA-DIGITAL COMMERCE APP (REACTJS)</h3>
+            <p>
+                An application for Visa card users to control their card transactions and features. Developed Web app
+                with rest
+                services, created custom UI components, front end accessibility
+            </p>
+
+            <!--NEXT-->
+            <h3 class="w3-padding-24 w3-text-light-grey">VISA-VDCA ONBOARDING (REACTJS)</h3>
+            <p>
+                An application for banks for creation of customized visa apps for banks. Involved in API development
+                using node
+                js, creation of custom web pages and required UI components like grids, form controls etc.
+            </p>
+            <!--NEXT-->
+            <h3 class="w3-padding-24 w3-text-light-grey">BIZVIZ</h3>
+            <p>An on demand, Business Intelligence dashboard portal with various analysis including predictive,
+                sentimental,
+                Geospatial and social media. Member of architecture design team of dashboards and its designer tool.
+                Lead the
+                team involved in development and maintenance of the html5 dashboarding product, self-service BI product,
+                designer framework and charts using object oriented javascript.
+            </p>
+            <!--NEXT-->
+            <h3 class="w3-padding-24 w3-text-light-grey">NIVIDH</h3>
+            <p>A business dashboard creation software, capable of creating dashboard from drag and drop and query
+                services.
+                Involved in customization and optimization of chart/grid components, Data connection management with
+                visualization components and server, Parser development/optimization, Offline data management
+            </p>
+            <h3 class="w3-padding-24 w3-text-light-grey">DVT</h3>
+            <p>Dashboarding portal that is being used by various International Schools in USA, Africa and Europe for
+                data
+                input and School data analysis. Involved in Dashboard design and development, DVT Framework development
+                using
+                cairngorm, Javascript dashboard framework development
+            </p>
+            <a href="/hash-labs">
+             <h3 class="w3-padding-24 w3-text-light-grey">Hobby projects</h3>
+            </a>
+        </div>
+        <!-- Grid for photos 
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half">
+          <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
+          <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
+          <img src="https://www.w3schools.com/w3images/sailboat.jpg" style="width:100%">
+        </div>
+
+        <div class="w3-half">
+          <img src="https://www.w3schools.com/w3images/underwater.jpg" style="width:100%">
+          <img src="https://www.w3schools.com/w3images/chef.jpg" style="width:100%">
+          <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
+          <img src="https://www.w3schools.com/w3images/p6.jpg" style="width:100%">
+        </div>
+        <!-- End photo grid 
+      </div>
+      <!-- End Portfolio Section -->
+
+
+        <!-- Contact Section -->
+        <div class="w3-justify w3-content w3-text-grey" id="contact">
+            <h2 class=" w3-text-light-grey">Contact Me</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Bangalore, IN</p>
+                <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email:
+                    <a href="mailto: manujsdeveloper@gmail.com"> manujsdeveloper@gmail.com</a>
+                </p>
+            </div><br>
+            <!-- End Contact Section -->
+        </div>
+
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+            <a href="https://github.com/mkrishnan-codes" target="_blank">
+                <i class="fa fa-github w3-hover-opacity"></i>
+            </a>
+            <a href="https://twitter.com/man_hashhuman" target="_blank">
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/manu-krishnan-n/">
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </a>
+
+            <!-- End footer -->
+        </footer>
+
+        <!-- END PAGE CONTENT -->
+    </div>
+    </div>
+</body>
+
+</html>
