@@ -1645,7 +1645,7 @@ a {
 
 .mkn-black,
 .mkn-hover-black:hover {
-    color: #fff !important;
+    color: #FAEBD7 !important;
     background-color: #212121 !important
 }
 
@@ -1661,7 +1661,7 @@ a {
 .mkn-hover-light-grey:hover,
 .mkn-light-gray,
 .mkn-hover-light-gray:hover {
-    color: #fff !important;
+    color: #FAEBD7 !important;
     background-color: #3d3d3d !important
 }
 
@@ -1825,7 +1825,7 @@ a {
 .mkn-hover-text-light-grey:hover,
 .mkn-text-light-gray,
 .mkn-hover-text-light-gray:hover {
-    color: #f1f1f1 !important
+    color: #FAEBD7 !important
 }
 
 .mkn-text-dark-grey,
@@ -2038,4 +2038,8 @@ a {
 
 .flex-item {
     width: 160px
+}
+.mkn-proj{
+    display: flex;
+    justify-content: space-between;
 }
