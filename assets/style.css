@@ -1661,8 +1661,8 @@ a {
 .w3-hover-light-grey:hover,
 .w3-light-gray,
 .w3-hover-light-gray:hover {
-    color: #000 !important;
-    background-color: #b3b3b3 !important
+    color: #fff !important;
+    background-color: #3d3d3d !important
 }
 
 .w3-dark-grey,
@@ -1992,40 +1992,50 @@ a {
 .w3-hover-border-pale-blue:hover {
     border-color: #e7ffff !important
 }
-.large-icon{
+
+.large-icon {
     font-size: xx-large;
     animation: fadeIn 1s
-
 }
 
 .loaded .page-head {
     /* animation: fadeIn 1s ease-in 0.7s forwards; */
     animation-duration: 1.25s;
     animation-name: slidefrom;
-  }
+}
 
-  .loaded .page-main {
+.loaded .page-main {
     animation-duration: 1.25s;
     animation-name: slidein;
-  }
-  
+}
 
-  
-  @keyframes slidein {
+
+
+@keyframes slidein {
     from {
-      margin-top: 200vh;
+        margin-top: 200vh;
     }
-  
+
     to {
-      margin-top: 0vh;
+        margin-top: 0vh;
     }
-  }
-  @keyframes slidefrom {
+}
+
+@keyframes slidefrom {
     from {
-      margin-top: -300px;
+        margin-top: -300px;
     }
-  
+
     to {
-      margin-bottom: 0px;
+        margin-bottom: 0px;
     }
-  }
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.flex-item {
+    width: 160px
+}
