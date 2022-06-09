@@ -515,7 +515,7 @@ a {
 .w3-sidebar {
     height: 100%;
     width: 200px;
-    background-color: #fff;
+    background-color: #3d3d3d;
     position: fixed !important;
     z-index: 1;
     overflow: auto
@@ -1646,7 +1646,7 @@ a {
 .w3-black,
 .w3-hover-black:hover {
     color: #fff !important;
-    background-color: #181818 !important
+    background-color: #212121 !important
 }
 
 .w3-grey,
@@ -1995,3 +1995,35 @@ a {
 .large-icon{
     font-size: xxx-large;
 }
+
+.loaded .page-head {
+    /* animation: fadeIn 1s ease-in 0.7s forwards; */
+    animation-duration: 1s;
+    animation-name: slidefrom;
+  }
+
+  .loaded .page-main {
+    animation-duration: 1.25s;
+    animation-name: slidein;
+  }
+  
+
+  
+  @keyframes slidein {
+    from {
+      margin-top: 200vh;
+    }
+  
+    to {
+      margin-top: 0vh;
+    }
+  }
+  @keyframes slidefrom {
+    from {
+      margin-top: -300px;
+    }
+  
+    to {
+      margin-bottom: 0px;
+    }
+  }

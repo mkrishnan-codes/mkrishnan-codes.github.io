@@ -12,6 +12,9 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-113314165-1');
+        window.addEventListener("load", () => {
+            document.querySelector("body").classList.add("loaded");
+        });
     </script>
     <link rel="stylesheet" href="./assets/style.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -38,7 +41,6 @@
         /* Set the width of the sidebar to 120px */
         .w3-sidebar {
             width: 120px;
-            background: #222;
         }
 
         /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
@@ -90,18 +92,22 @@
     </div>
 
     <!-- Page Content -->
-    <div class="w3-padding-large" id="main">
+    <div class="w3-padding-large  " id="main">
         <!-- Header/Home -->
-        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-            <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Manu Krishnan.</h1>
-            <p>Software Engineer ☕ | Learner 🔥</p>
-            
+        <header class="w3-container w3-padding-32 w3-center w3-black page-head" id="home">
+            <div class="text-wrapper">
+                <h1 class="w3-jumbo "><span class="w3-hide-small">I'm</span> Manu Krishnan.</h1>
+            </div>
+            <div class="p-wrapper">
+
+                <p>Software Engineer ☕ | Learner 🔥</p>
+            </div>
+
         </header>
 
         <!-- About Section -->
-        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-            <h2 class="w3-text-light-grey">About</h2>
-            <hr style="width:250px" class="w3-opacity">
+        <div class="w3-content w3-justify  w3-padding-64 page-main" id="about">
+
             <p>11 years of experience in building scalable web applications. Proficient in building web applications and
                 native mobile applications using React and Typescript. Worked on several frameworks and technologies
                 including
@@ -167,14 +173,15 @@
         </div>
 
         <!-- Portfolio Section  -->
-        <div class="w3-padding-64 w3-content" id="projects">
+        <div class="w3-padding-64 w3-content page-main" id="projects">
             <h2 class="w3-text-light-grey">Projects</h2>
             <hr style="width:200px" class="w3-opacity">
             <!--NEXT-->
 
             <h3 class="w3-padding-24 w3-text-light-grey">FALCONX EDGE (REACTJS)</h3>
             <p>
-                Web app built for Falconx customers (institutional traders) to trade crypto currencies with multiple exchanges like Binance/FTX in a single window. Platforms - Web
+                Web app built for Falconx customers (institutional traders) to trade crypto currencies with multiple
+                exchanges like Binance/FTX in a single window. Platforms - Web
             </p>
             <!--NEXT-->
 
@@ -243,7 +250,7 @@
                 cairngorm, Javascript dashboard framework development
             </p>
             <a href="/hash-labs">
-             <h3 class="w3-padding-24 w3-text-light-grey">Hobby projects</h3>
+                <h3 class="w3-padding-24 w3-text-light-grey">Hobby projects</h3>
             </a>
         </div>
         <!-- Grid for photos 
