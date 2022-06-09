@@ -1993,12 +1993,14 @@ a {
     border-color: #e7ffff !important
 }
 .large-icon{
-    font-size: xxx-large;
+    font-size: xx-large;
+    animation: fadeIn 1s
+
 }
 
 .loaded .page-head {
     /* animation: fadeIn 1s ease-in 0.7s forwards; */
-    animation-duration: 1s;
+    animation-duration: 1.25s;
     animation-name: slidefrom;
   }
 
