@@ -18,12 +18,15 @@
         "url": "git+https://github.com/manu-codes/manu-codes.github.io.git"
     },
     "dependencies": {},
-    "devDependencies": {},
+    "devDependencies": {
+        "minify": "^14.1.0",
+        "serve": "^14.2.6"
+    },
     "scripts": {
-        "minify": "sudo npm run min-html && sudo npm run min-css",
+        "minify": "npm run min-html && npm run min-css",
         "min-css": "npx minify ./assets/style.css > ./assets/style.min.css",
         "min-html": "npx minify ./src/index-dev.html > index.html",
-        "build": "sudo npm run minify",
-        "dev":"npm run minify && npx serve"
+        "build": "npm run minify",
+        "dev": "npm run minify && npx serve"
     }
 }
